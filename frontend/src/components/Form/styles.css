@@ -1,0 +1,48 @@
+.formDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+    
+}
+
+
+.create_form_input{
+    background-color: #fff0f3;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ffc5cd;
+    border-radius: 8px;
+
+    :focus{
+        border: 3px solid #ffc5cd;
+        outline: none;
+    }
+
+}
+
+.create_form_button{
+
+    background: #ffbdc7;
+    border-radius: 18px;
+    border: 2px solid #ffbdc7;
+    color: white;
+    margin-left: 1rem;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
+
+@media (max-width: 420px){
+    .formDiv{
+        flex-direction: column;
+    }
+
+    .create_form_button{
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
+    }
+}

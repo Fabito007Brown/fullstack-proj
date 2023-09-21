@@ -1,0 +1,15 @@
+.keyContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.8rem;
+    list-style-type: square;
+    border: 1px solid #ffbdc7;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+li .done{
+    color: red;
+    
+}

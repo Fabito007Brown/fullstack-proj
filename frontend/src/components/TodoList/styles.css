@@ -1,0 +1,33 @@
+.todoList{
+    padding: 0;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 1rem;
+}
+
+
+
+.text{
+
+    
+    ::first-letter{
+        text-transform: capitalize;
+    }
+
+    
+
+}
+
+.delete{
+    cursor: pointer;
+    ::first-letter{
+        text-transform: capitalize;
+    }
+
+}
